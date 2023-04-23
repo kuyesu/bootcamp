@@ -8,8 +8,8 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-center font-mono text-sm lg:flex">
         <p className=" flex w-full justify-center  pb-6 pt-8 backdrop-blur-2xl  ">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
+          Welcome
+          <span className="font-mono font-bold px-4">Hero!</span>
         </p>
 
       </div>
