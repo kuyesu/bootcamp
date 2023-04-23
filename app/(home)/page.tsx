@@ -50,8 +50,8 @@ export default function Home() {
         </div>
         <div className="flex w-full flex-col ">
           <h1 className="font-light text-gray-50 md:pt-24 md:text-sm">
-            You{"'"}re a legend! Are you ready to take your career or studies to
-            the next level?
+            We would love to offer you early access, so you can get started on
+            your journey right away.
           </h1>
 
           <div className="mt-8 flex w-full gap-4">
