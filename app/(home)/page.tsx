@@ -18,7 +18,7 @@ export default function Home() {
       </div>
 
       <div className="flex text-center justify-center pt-28 pb-8">
-        <Link href="/about" className="text-sm inline-flex items-center text-cyan-500">
+        <Link href="/intro" className="text-sm inline-flex items-center text-cyan-500">
           Let{"'"}s get started
           <svg
             xmlns="http://www.w3.org/2000/svg"
