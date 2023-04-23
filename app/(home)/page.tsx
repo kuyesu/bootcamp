@@ -6,35 +6,63 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className="flex w-full h-full flex-col items-center md:justify-start justify-between md:p-24 ">
-      <div className="z-10 w-full max-w-5xl items-center justify-center font-mono text-sm flex">
-        <p className=" flex text-orange-500 text-lg w-full justify-center  pb-6 pt-8   ">
+    <main className="flex w-full h-full flex-col items-center justify-center md:justify-between md:p-24 pt-28 md:pt-24 ">
+      <h1 className="text-black md:pt-24 md:text-2xl">
+        <p className=" flex text-xl  text-cyan-500 w-full justify-center  pb-6 pt-8   ">
           Welcome
           <span className="font-mono font-bold px-4 ">Hero!</span>
         </p>
-      </div>
-      <div className="flex place-items-center py-8 ">
-        <Image src="/team.svg" alt="hero" width={500} height={500} />
-      </div>
+        <p className="text-gray-50 md:text-sm">
+          {" "}
+          We have been looking for you. You are an absolute legend, and we
+          couldn
+          {"'"}t be more excited to see what you{"'"}ll achieve next!
+        </p>
+      </h1>
+      <div className="md:flex w-full hidden h-full  items-center md:justify-between md:space-x-16 md:px-28  pt-5 text-start ">
+        <div className="flex w-full flex-col ">
+          <h1 className="font-light text-gray-50 md:pt-24 md:text-sm">
+            We would love to offer you early access, so you can get started on
+            your journey right away.
+          </h1>
 
-      <div className="flex text-center justify-center pt-28 pb-8">
-        <Link href="/intro" className="text-sm inline-flex items-center text-cyan-500">
-          Let{"'"}s get started
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-6 h-6 ml-3"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-            />
-          </svg>
-        </Link>
+          <div className="mt-8 flex w-full gap-4">
+            <Link
+              href="/intro"
+              className="  w-full rounded-md px-8 py-2.5 text-center text-sm font-medium text-cyan-500 border-cyan-500 border  shadow-2xl shadow-cyan-500 focus:outline-none  md:mr-0 hover:shadow-xl"
+            >
+              Get early access
+            </Link>
+          </div>
+        </div>
+
+        <div className=" w-full items-center justify-end pt-24 ">
+          <div className="w-full items-center justify-start">
+            <Image src="/team.svg" width={500} height={500} alt="" />
+          </div>
+        </div>
+      </div>
+      <div className="md:hidden w-full flex flex-col   items-center justify-between h-full py-28  pt-5 text-start ">
+        <div className=" w-full items-center justify-end pt-16 ">
+          <div className="w-full items-center justify-start">
+            <Image src="/team.svg" width={500} height={500} alt="" />
+          </div>
+        </div>
+        <div className="flex w-full flex-col ">
+          <h1 className="font-light text-gray-50 md:pt-24 md:text-sm">
+            You{"'"}re a legend! Are you ready to take your career or studies to
+            the next level?
+          </h1>
+
+          <div className="mt-8 flex w-full gap-4">
+            <Link
+              href="/intro"
+              className="  w-full rounded-md px-8 py-2.5 text-center text-sm font-medium text-cyan-500 border-cyan-500 border shadow-2xl shadow-cyan-500 focus:outline-none  md:mr-0"
+            >
+              Get early access
+            </Link>
+          </div>
+        </div>
       </div>
     </main>
   );

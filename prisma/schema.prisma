@@ -52,6 +52,7 @@ model User {
   Tasks         Task[]
   taskId        String?
   feedback      Feedback[]
+  profession    String?
 }
 
 model Interest {

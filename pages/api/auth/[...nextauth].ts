@@ -17,7 +17,10 @@ export const authOptions: NextAuthOptions = {
   session: {
     strategy: "jwt",
   },
-  
+  pages: {
+    newUser: "/welcome",
+  },
+
   providers: [
     GitHubProvider({
       // @ts-ignore

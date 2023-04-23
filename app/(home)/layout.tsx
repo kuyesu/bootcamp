@@ -3,6 +3,7 @@ import '@/styles/globals.css'
 import { Inter } from 'next/font/google'
 import clsx from 'clsx'
 const inter = Inter({ subsets: ['latin'] })
+import { Toaster } from "@/ui/toast";
 
 export const metadata = {
   title: 'Bootcamp Starter',
