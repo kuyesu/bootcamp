@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,9 +17,8 @@ export default function Home() {
         <Image src="/team.svg" alt="hero" width={500} height={500} />
       </div>
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-
-
+      <div className=" grid text-center justify-center py-28">
+        <Link href="/about" className='text-sm text-cyan-500'>Let{'\''}s get started</Link>
       </div>
     </main>
   )
