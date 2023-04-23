@@ -11,11 +11,9 @@ export default function Home() {
           Welcome
           <span className="font-mono font-bold px-4 ">Hero!</span>
         </p>
-
       </div>
-
-      <div className="relative flex place-items-center ">
-
+      <div className="relative flex place-items-center py-8 ">
+        <Image src="/team.svg" alt="hero" width={500} height={500} />
       </div>
 
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
