@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className="flex w-full h-full flex-col items-center justify-start md:p-24 ">
+    <main className="flex w-full h-full flex-col items-center md:justify-start justify-between md:p-24 ">
       <div className="z-10 w-full max-w-5xl items-center justify-center font-mono text-sm flex">
         <p className=" flex text-orange-500 text-lg w-full justify-center  pb-6 pt-8   ">
           Welcome
@@ -17,7 +17,7 @@ export default function Home() {
         <Image src="/team.svg" alt="hero" width={500} height={500} />
       </div>
 
-      <div className="flex text-center justify-center py-28">
+      <div className="flex text-center justify-center pt-28 pb-8">
         <Link href="/about" className="text-sm inline-flex items-center text-cyan-500">
           Let{"'"}s get started
           <svg
