@@ -13,13 +13,29 @@ export default function Home() {
           <span className="font-mono font-bold px-4 ">Hero!</span>
         </p>
       </div>
-      <div className="relative flex place-items-center py-8 ">
+      <div className="flex place-items-center py-8 ">
         <Image src="/team.svg" alt="hero" width={500} height={500} />
       </div>
 
-      <div className=" grid text-center justify-center py-28">
-        <Link href="/about" className='text-sm text-cyan-500'>Let{'\''}s get started</Link>
+      <div className="flex text-center justify-center py-28">
+        <Link href="/about" className="text-sm inline-flex items-center text-cyan-500">
+          Let{"'"}s get started
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-6 h-6 ml-3"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+            />
+          </svg>
+        </Link>
       </div>
     </main>
-  )
+  );
 }
