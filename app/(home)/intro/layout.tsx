@@ -8,8 +8,8 @@ export default function IntroLayout({
   children: React.ReactNode;
 }) {
   return (
-    <SessionProvider>
-      {children} {/* <Component {...pageProps} /> */}
-    </SessionProvider>
+    <>
+      {children}
+    </>
   );
 }

@@ -18,9 +18,9 @@ export const authOptions: NextAuthOptions = {
     strategy: "jwt",
   },
   pages: {
+    signIn: "/login",
     newUser: "/welcome",
   },
-
   providers: [
     GitHubProvider({
       // @ts-ignore
@@ -186,6 +186,5 @@ function html(params: { url: string; host: string; theme: Theme }) {
 function text({ url, host }: { url: string; host: string }) {
   return `Sign in to ${host}\n${url}\n\n`;
 }
-
 
 export default NextAuth(authOptions);

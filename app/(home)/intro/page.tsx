@@ -1,15 +1,15 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-"use client";
-import React, {useState} from 'react'
-import { useSession } from 'next-auth/react';
+import React from 'react'
+import { authOptions } from "@/pages/api/auth/[...nextauth]";
+import { getServerSession } from "next-auth/next";
 import Link from 'next/link';
 import Login from '@/components/auth/login';
 
+
 export default async function index() {
-    const [loginComponent, setLoginComponent] = useState(false)
-    const [introComponent, setIntroComponent] = useState(false)
-    const { data: session, status } = useSession();
+  const session = await getServerSession(authOptions);
   const user = session?.user
+
     return (
       <main className="flex w-full h-full flex-col items-center md:justify-start justify-between md:p-24 ">
         {user ? (
