@@ -77,7 +77,7 @@ export default function Interim({
       exit={{ opacity: 0, scale: 0.95 }}
       transition={{ duration: 0.5, type: "spring" }}
     >
-      <div className="flex w-full justify-center flex-col md:flex-row   items-center md:justify-between md:px-28 md:space-x-16 pt-28  md:pt-5 text-start ">
+      <div className="flex w-full justify-center flex-col md:flex-row   items-center md:justify-between md:px-28 md:space-x-16 pt-20  md:pt-5 text-start ">
         <div className="w-full md:hidden items-center justify-start">
           <Image src="/exam.svg" width={300} height={300} alt="" />
         </div>
