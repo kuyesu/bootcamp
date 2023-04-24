@@ -50,19 +50,19 @@ export default function AccordionDemo() {
         </AccordionTrigger>
         <AccordionContent className="flex flex-col w-full">
           <div className="flex flex-col w-full px-4">
-            <Link href="/code-firsdt-hand" className="text-cyan-500  inline-flex md:pt-4 pt-2 text-xs">
+            <Link href="/code-first-hand" className="text-cyan-500  inline-flex md:pt-4 pt-2 text-xs">
               <span className="text-cyan-500 mr-4">✔</span>
               Intro to HTML, HEAD, BODY, and HEADER
             </Link>
-            <Link href="/code-firsdt-hand" className="text-cyan-500  inline-flex md:pt-4 pt-2 text-xs">
+            <Link href="/code-first-hand" className="text-cyan-500  inline-flex md:pt-4 pt-2 text-xs">
               <span className="text-cyan-500 mr-4">✔</span>
               HTML: Lists, Paragraphs, and Text Styling
             </Link>
-            <Link href="/code-firsdt-hand" className="text-cyan-500  inline-flex md:pt-4 pt-2 text-xs">
+            <Link href="/code-first-hand" className="text-cyan-500  inline-flex md:pt-4 pt-2 text-xs">
               <span className="text-cyan-500 mr-4">✔</span>
               HTML: Displaying Data With Tables
             </Link>
-            <Link href="/code-firsdt-hand" className="text-cyan-500  inline-flex md:pt-4 pt-2 text-xs">
+            <Link href="/code-first-hand" className="text-cyan-500  inline-flex md:pt-4 pt-2 text-xs">
               <span className="text-cyan-500 mr-4">✔</span>
               HTML: Images & Forms
             </Link>
