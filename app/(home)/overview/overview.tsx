@@ -4,6 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/ui/accordion";
+import Link from "next/link";
 
 export default function AccordionDemo() {
   return (
@@ -14,17 +15,30 @@ export default function AccordionDemo() {
     >
       <AccordionItem
         value="item-1"
-        className="border w-full border-gray-900 border-b-0 py-0.5 md:py-3 rounded-sm px-2 md:px-8"
+        className="border  w-full border-gray-900 border-b-0 py-0.5 md:py-3 rounded-sm px-2 md:px-8"
       >
         <AccordionTrigger className="text-sx md:text-sm flex w-full justify-between">
           Introduction to Web Development
         </AccordionTrigger>
-        <AccordionContent>
+        <AccordionContent className="flex flex-col w-full">
+          <div className="flex flex-col w-full px-4">
+            <p className="text-cyan-500 inline-flex md:pt-4 pt-2 text-xs">
+            <span className="text-cyan-500 mr-4">✔</span>
+            Internet and the web
+          </p>
           <p className="text-cyan-500 inline-flex md:pt-4 pt-2 text-xs">
             <span className="text-cyan-500 mr-4">✔</span>
-            Keep learning, practicing, and building to become an even better
-            programmer
+            How does the web works
           </p>
+          <p className="text-cyan-500 inline-flex md:pt-4 pt-2 text-xs">
+            <span className="text-cyan-500 mr-4">✔</span>
+            Server: Client and the server
+          </p>
+          <p className="text-cyan-500 inline-flex md:pt-4 pt-2 text-xs">
+            <span className="text-cyan-500 mr-4">✔</span>
+            Domain name and hosting
+            </p>
+            </div>
         </AccordionContent>
       </AccordionItem>
       <AccordionItem
@@ -36,22 +50,22 @@ export default function AccordionDemo() {
         </AccordionTrigger>
         <AccordionContent className="flex flex-col w-full">
           <div className="flex flex-col w-full px-4">
-            <p className="text-cyan-500  inline-flex md:pt-4 pt-2 text-xs">
+            <Link href="/code-firsdt-hand" className="text-cyan-500  inline-flex md:pt-4 pt-2 text-xs">
               <span className="text-cyan-500 mr-4">✔</span>
               Intro to HTML, HEAD, BODY, and HEADER
-            </p>
-            <p className="text-cyan-500 inline-flex md:pt-4 pt-2 text-xs">
+            </Link>
+            <Link href="/code-firsdt-hand" className="text-cyan-500  inline-flex md:pt-4 pt-2 text-xs">
               <span className="text-cyan-500 mr-4">✔</span>
               HTML: Lists, Paragraphs, and Text Styling
-            </p>
-            <p className="text-cyan-500 inline-flex md:pt-4 pt-2 text-xs">
+            </Link>
+            <Link href="/code-firsdt-hand" className="text-cyan-500  inline-flex md:pt-4 pt-2 text-xs">
               <span className="text-cyan-500 mr-4">✔</span>
               HTML: Displaying Data With Tables
-            </p>
-            <p className="text-cyan-500 inline-flex md:pt-4 pt-2 text-xs">
+            </Link>
+            <Link href="/code-firsdt-hand" className="text-cyan-500  inline-flex md:pt-4 pt-2 text-xs">
               <span className="text-cyan-500 mr-4">✔</span>
               HTML: Images & Forms
-            </p>
+            </Link>
           </div>
         </AccordionContent>
       </AccordionItem>

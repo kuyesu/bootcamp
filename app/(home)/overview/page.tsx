@@ -21,7 +21,7 @@ export default function Home() {
           Visual Studio Code or Sublime Text, and viewed in a web browser
         </p>
       </h1>
-      <div className="flex w-full">
+      <div className="flex w-full h-full py-20">
         <Overview />
       </div>
     </main>
