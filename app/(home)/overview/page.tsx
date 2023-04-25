@@ -21,8 +21,29 @@ export default function Home() {
           Visual Studio Code or Sublime Text, and viewed in a web browser
         </p>
       </h1>
-      <div className="flex w-full h-full py-20">
+      <div className="flex flex-col space-y-6 w-full h-full py-20">
         <Overview />
+        <Link
+          // type="button"
+          href="/get-started"
+          className="text-sm items-end justify-end inline-flex text-right text-cyan-500"
+        >
+          Next
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-6 h-6 ml-3"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+            />
+          </svg>
+        </Link>
       </div>
     </main>
   );
