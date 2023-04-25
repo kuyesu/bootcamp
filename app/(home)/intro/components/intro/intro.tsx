@@ -25,16 +25,16 @@ export default function Intro({
 
   return (
     <motion.div
-      className="z-50 w-full space-y-24 py-28 md:py-10 pb-44 justify-center items-center flex flex-col "
+      className="z-50 w-full py-16 md:py-10  justify-center items-center flex flex-col "
       exit={{ opacity: 0, scale: 0.95 }}
       transition={{ duration: 0.5, type: "spring" }}
     >
       <div className="flex w-full  items-center justify-between space-x-16 md:px-28 px-4  pt-5 text-start ">
         <div className="flex w-full flex-col ">
-          <div className="w-full md:hidden items-center md:pt-24 pb-24 justify-start">
+          <div className="w-full md:hidden items-center md:pt-24 pb-12 justify-start">
             <Image src="/hacker.svg" width={500} height={500} alt="" />
           </div>
-          <h1 className="text-black hidden md:flex md:pt-24 pb-24 md:pb-0 md:text-2xl"></h1>
+          <h1 className="text-black hidden md:flex md:pt-24 pb-16 md:pb-0 md:text-2xl"></h1>
           <h1 className="font-light text-gray-50 md:pt-24 md:text-sm flex w-full">
             Welcome to the world of programming!
           </h1>

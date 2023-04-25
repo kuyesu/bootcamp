@@ -78,18 +78,18 @@ export default function Interim({
 
   return (
     <motion.div
-      className="z-50 w-full space-y-24 md:py-28"
+      className="z-50 w-full space-y-5 md:py-28"
       exit={{ opacity: 0, scale: 0.95 }}
       transition={{ duration: 0.5, type: "spring" }}
     >
-      <div className="flex w-full justify-center flex-col md:flex-row   items-center md:justify-between md:px-28 md:space-x-16 pt-20  md:pt-5 text-start ">
+      <div className="flex w-full justify-start flex-col md:flex-row   items-start md:justify-between md:px-28 md:space-x-16 pt-8  md:pt-5 text-start ">
         <div className="w-full md:hidden items-center justify-start">
           <Image src="/exam.svg" width={300} height={300} alt="" />
         </div>
         <div className="flex w-full flex-col justify-start ">
           {item === 1 ? (
             <>
-              <h1 className="text-black pt-24 md:text-2xl">
+              <h1 className="text-black pt-10 md:text-2xl">
                 <span className="md:mr-2 md:text-xl  w-full flex text-md  text-gray-50">
                   Find Your Inspiration
                 </span>
@@ -111,7 +111,7 @@ export default function Interim({
             <>
               {item === 2 ? (
                 <>
-                  <h1 className="text-black pt-24 md:text-2xl">
+                  <h1 className="text-black pt-10 md:text-2xl">
                     <span className="md:mr-2 md:text-xl  w-full flex text-md  text-gray-50">
                       Get the Basics Down
                     </span>
@@ -134,7 +134,7 @@ export default function Interim({
                 <>
                   {item === 3 ? (
                     <>
-                      <h1 className="text-black pt-24 md:text-2xl">
+                      <h1 className="text-black pt-10 md:text-2xl">
                         <span className="md:mr-2 md:text-xl  w-full flex text-md  text-gray-50">
                           Build Your First Program
                         </span>
@@ -157,7 +157,7 @@ export default function Interim({
                     <>
                       {item === 4 ? (
                         <>
-                          <h1 className="text-black pt-24 md:text-2xl">
+                          <h1 className="text-black pt-10 md:text-2xl">
                             <span className="md:mr-2 md:text-xl  w-full flex text-md  text-gray-50">
                               Learn More Advanced Topics
                             </span>
@@ -182,7 +182,7 @@ export default function Interim({
                         <>
                           {item === 5 ? (
                             <>
-                              <h1 className="text-black pt-24 md:text-2xl">
+                              <h1 className="text-black pt-10 md:text-2xl">
                                 <span className="md:mr-2 md:text-xl  w-full flex text-md  text-gray-50">
                                   Build More Complex Programs
                                 </span>
@@ -202,7 +202,7 @@ export default function Interim({
                             <>
                               {item === 6 ? (
                                 <>
-                                  <h1 className="text-black pt-24 md:text-2xl">
+                                  <h1 className="text-black pt-10 md:text-2xl">
                                     <span className="md:mr-2 md:text-xl  w-full flex text-md  text-gray-50">
                                       Get Experience
                                     </span>
@@ -234,7 +234,7 @@ export default function Interim({
                                 <>
                                   {item === 7 ? (
                                     <>
-                                      <h1 className="text-black pt-24 md:text-2xl">
+                                      <h1 className="text-black pt-10 md:text-2xl">
                                         <span className="md:mr-2 md:text-xl  w-full flex text-md  text-gray-50">
                                           Have Fun
                                         </span>
@@ -266,7 +266,7 @@ export default function Interim({
                                     <>
                                       {item === 8 ? (
                                         <>
-                                          <h1 className="text-black pt-24 md:text-2xl">
+                                          <h1 className="text-black pt-10 md:text-2xl">
                                             <span className="md:mr-2 md:text-xl  w-full flex text-md  text-gray-50">
                                                             Congratulations, you{"'"}re now a
                                               programmer!

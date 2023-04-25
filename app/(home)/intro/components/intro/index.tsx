@@ -10,7 +10,7 @@ export default function Welcome() {
 
 
   return (
-    <div className="flex  w-full flex-col items-center ">
+    <div className="flex  w-full flex-col items-start ">
       <Meta title=" onboarding Eduguide" />
       <AnimatePresence mode="wait" >
         {state === "intro" && <Intro key="intro" setState={setState} />}
