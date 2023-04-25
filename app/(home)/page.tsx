@@ -12,7 +12,7 @@ export default function Home() {
           Welcome
           <span className="font-mono font-bold px-4 ">Hero!</span>
         </p>
-        <p className="text-gray-50 md:text-sm">
+        <p className="text-gray-50 md:text-sm text-justify">
           {" "}
           We have been looking for you. You are an absolute legend, and we
           couldn
@@ -21,7 +21,7 @@ export default function Home() {
       </h1>
       <div className="md:flex w-full hidden h-full  items-center md:justify-between md:space-x-16 md:px-28  pt-5 text-start ">
         <div className="flex w-full flex-col ">
-          <h1 className="font-light text-gray-50 md:pt-24 md:text-sm">
+          <h1 className="font-light text-gray-50 text-justify md:pt-24 md:text-sm">
             We would love to offer you early access, so you can get started on
             your journey right away.
           </h1>
@@ -49,7 +49,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex w-full flex-col py-10">
-          <h1 className="font-light text-gray-50 md:pt-24 md:text-sm">
+          <h1 className="font-light text-gray-50 text-justify md:pt-24 md:text-sm">
             We would love to offer you early access, so you can get started on
             your journey right away.
           </h1>
