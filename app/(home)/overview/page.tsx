@@ -26,7 +26,7 @@ export default function Home() {
         <Link
           // type="button"
           href="/get-started"
-          className="text-sm items-end justify-end inline-flex text-right text-cyan-500"
+          className="text-sm items-center justify-center py-10 inline-flex text-right text-cyan-500"
         >
           Next
           <svg

@@ -2,13 +2,17 @@
 
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { Dispatch, ReactNode, SetStateAction, useEffect, useState } from "react";
+import {
+  Dispatch,
+  ReactNode,
+  SetStateAction,
+  useEffect,
+  useState,
+} from "react";
 import { motion } from "framer-motion";
 import toast from "react-hot-toast";
 import LoadingDots from "@/components/shared/icon/loading-dots";
-import Link  from "next/link";
-
-
+import Link from "next/link";
 
 interface Option {
   value: string;
@@ -27,7 +31,6 @@ const profession = [
   { id: 1, name: "Developer" },
   { id: 2, name: "Student " },
   { id: 3, name: "Passionate about Technology" },
-
 ];
 
 export default function Interim({
@@ -35,7 +38,6 @@ export default function Interim({
 }: {
   setState: Dispatch<SetStateAction<string>>;
 }) {
-
   const [selectedProfession, setSelectedProfession] = useState(null);
   const [item, setItem] = useState(1);
 
@@ -47,7 +49,7 @@ export default function Interim({
   };
   const handleNext = () => {
     setItem(item + 1);
-  }
+  };
 
   const handleEnrollment = async () => {
     setLoading(true);
@@ -65,7 +67,7 @@ export default function Interim({
       setLoading(false);
       if (res.status === 200) {
         toast.success(
-          "Your profile has been updated! Redirecting to dashboard...",
+          "Your profile has been updated! Redirecting to dashboard..."
         );
         const data = await res.json();
         router.push("/intro");
@@ -268,7 +270,7 @@ export default function Interim({
                                         <>
                                           <h1 className="text-black pt-10 md:text-2xl">
                                             <span className="md:mr-2 md:text-xl  w-full flex text-md  text-gray-50">
-                                                            Congratulations, you{"'"}re now a
+                                              Congratulations, you{"'"}re now a
                                               programmer!
                                             </span>
                                           </h1>
@@ -305,7 +307,7 @@ export default function Interim({
               )}
             </>
           )}
-          <div className=" w-full pt-12 ">
+          <div className=" w-full pt-12 left-0 ">
             {item > 7 ? (
               <Link
                 href="/overview"

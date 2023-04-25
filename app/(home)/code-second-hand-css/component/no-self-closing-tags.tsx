@@ -9,7 +9,7 @@ export default function noSelfClosingTags() {
         <p className=" flex md:text-xl items-start  text-cyan-500 w-full justify-start  pb-6  pt-24  ">
           CSS Grid layout:
         </p>
-        <p className="text-gray-400 text-sm text-center md:text-base w-full justify-start flex  py-8 ">
+        <p className="text-gray-400 text-sm text-justify md:text-base w-full justify-start flex  py-8 ">
           CSS Grid layout is a powerful grid system that allows you to create
           complex layouts for web pages. It provides a two-dimensional grid
           system that enables you to define rows and columns for your content,
