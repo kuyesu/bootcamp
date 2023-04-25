@@ -28,7 +28,7 @@ export default function Home() {
 
           <div className="mt-8 flex w-full gap-4">
             <Link
-              href="/intro"
+              href="/get-started"
               className="  w-full rounded-md px-8 py-2.5 text-center text-sm font-medium text-cyan-500 border-cyan-500 border  shadow-2xl shadow-cyan-500 focus:outline-none  md:mr-0 hover:shadow-xl"
             >
               Get early access
