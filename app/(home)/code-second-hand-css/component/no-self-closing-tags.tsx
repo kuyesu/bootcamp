@@ -1,5 +1,6 @@
 import React from 'react'
 import Highlighter from "./highlighter";
+import Link from 'next/link';
 
 export default function noSelfClosingTags() {
   return (
@@ -130,12 +131,12 @@ export default function noSelfClosingTags() {
         <span className="">
           Download Bootstrap: You can download Bootstrap from its official
           website at{" "}
-          <a
+          <Link
             href="https://getbootstrap.com/."
             className="underline text-blue-500"
           >
             Click the Download
-          </a>{" "}
+          </Link>{" "}
           button and choose whether you want to download the compiled CSS and
           JavaScript files, or the source code.
         </span>
