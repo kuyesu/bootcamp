@@ -23,7 +23,7 @@ export default function noSelfClosingTags() {
       {/* tag intro */}
       <div className="w-full max-w-5xl items-center justify-center font-mono text-sm flex">
         <Highlighter
-          title="HTML document with a few basic tags:"
+          title="html"
           text={`
 <!DOCTYPE html>
 <html>
@@ -46,7 +46,7 @@ export default function noSelfClosingTags() {
       </p>
       <div className="w-full max-w-5xl items-center justify-center font-mono text-sm flex">
         <Highlighter
-          title="HTML: The {`<p>`} tag"
+          title="html"
           text={`
 <p>This is a paragraph of text.</p>
                       `}
@@ -58,7 +58,7 @@ export default function noSelfClosingTags() {
       </p>
       <div className="w-full max-w-5xl items-center justify-center font-mono text-sm flex">
         <Highlighter
-          title="HTML: The {`<div>`} tag"
+          title="html"
           text={`
 <div>
   <h1>Section Heading</h1>
@@ -76,7 +76,7 @@ export default function noSelfClosingTags() {
       </p>
       <div className="w-full max-w-5xl items-center justify-center font-mono text-sm flex">
         <Highlighter
-          title="HTML: The {`<div>`} tag"
+          title="html"
           text={`
 <ul>
   <li>Item 1</li>
@@ -92,7 +92,7 @@ export default function noSelfClosingTags() {
       </p>
       <div className="w-full max-w-5xl items-center justify-center font-mono text-sm flex">
         <Highlighter
-          title="HTML: The <table> tag "
+          title="html"
           text={`
 <table>
   <tr>
@@ -124,7 +124,7 @@ export default function noSelfClosingTags() {
       </p>
       <div className="w-full max-w-5xl items-center justify-center font-mono text-sm flex">
         <Highlighter
-          title="HTML: The {`<a>`} tag"
+          title="html"
           text={`
 <a href="https://www.example.com">Visit Example.com</a>
 
@@ -142,7 +142,7 @@ export default function noSelfClosingTags() {
       </p>
       <div className="w-full max-w-5xl items-center justify-center font-mono text-sm flex">
         <Highlighter
-          title="HTML: The {`<img>`} tag"
+          title="html"
           text={`
 <img src="image.jpg" alt="Image Description">
 
@@ -160,7 +160,7 @@ export default function noSelfClosingTags() {
       </p>
       <div className="w-full max-w-5xl items-center justify-center font-mono text-sm flex">
         <Highlighter
-          title="HTML: The {`<table>`} tag"
+          title="html"
           text={`
 <table>
   <tr>
@@ -186,7 +186,7 @@ export default function noSelfClosingTags() {
       </p>
       <div className="w-full max-w-5xl items-center justify-center font-mono text-sm flex">
         <Highlighter
-          title="HTML: The {`<button>`} tag"
+          title="html"
           text={`
 <button>Click me!</button>
                       `}

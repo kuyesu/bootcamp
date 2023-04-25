@@ -35,7 +35,7 @@ export default async function index() {
         {/* Intro code */}
         <div className="w-full max-w-5xl items-center justify-center font-mono text-sm flex">
           <Highlighter
-            title="HTML code that displays a simple web page:"
+            title="html"
             text={`
 <!DOCTYPE html>
 <html lang="en">
@@ -74,7 +74,7 @@ export default async function index() {
         {/* tag intro */}
         <div className="w-full max-w-5xl items-center justify-center font-mono text-sm flex">
           <Highlighter
-            title="HTML document with a few basic tags:"
+            title="html"
             text={`
 <!DOCTYPE html>
 <html>
