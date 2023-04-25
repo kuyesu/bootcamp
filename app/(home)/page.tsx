@@ -42,13 +42,13 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="md:hidden w-full flex flex-col   items-center justify-between h-full py-28  pt-5 text-start ">
+      <div className="md:hidden w-full flex flex-col   items-center justify-between  py-16  pt-5 text-start ">
         <div className=" w-full items-center justify-end pt-16 ">
           <div className="w-full items-center justify-start">
             <Image src="/team.svg" width={500} height={500} alt="" />
           </div>
         </div>
-        <div className="flex w-full flex-col ">
+        <div className="flex w-full flex-col py-10">
           <h1 className="font-light text-gray-50 md:pt-24 md:text-sm">
             We would love to offer you early access, so you can get started on
             your journey right away.
