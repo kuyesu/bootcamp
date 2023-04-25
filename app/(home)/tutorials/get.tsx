@@ -32,11 +32,32 @@ export default function Interim() {
             HTML and the Web - Learn the basics of HTML and the Web
           </Link>
           <Link
-            href="/code-first-hand"
+            href="/code-second-hand-css"
             className="text-cyan-500 inline-flex md:pt-6 pt-4 text-xs"
           >
             <span className="text-cyan-500 mr-4">✔</span>
             CSS and Bootsrap - Learn the basics of CSS and Bootstrap
+          </Link>
+          <Link
+            href="#"
+            className="text-gray-700 inline-flex md:pt-6 pt-4 text-xs"
+          >
+            <span className="text-gray-700  mr-4">✔</span>
+            Diving into JavaScript and Nodejs
+          </Link>
+          <Link
+            href="#"
+            className="text-gray-700 inline-flex md:pt-6 pt-4 text-xs"
+          >
+            <span className="text-gray-700  mr-4">✔</span>
+            Reactjs and Express. What are they?
+          </Link>
+          <Link
+            href="#"
+            className="text-gray-700 inline-flex md:pt-6 pt-4 text-xs"
+          >
+            <span className="text-gray-700  mr-4">✔</span>
+            Register for the Demo Day
           </Link>
         </div>
         <div className="hidden md:flex w-full items-start justify-start md:pt-12 ">
