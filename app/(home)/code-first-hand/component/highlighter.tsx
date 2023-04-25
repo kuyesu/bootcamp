@@ -9,7 +9,7 @@ import {
 } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import swal from "sweetalert";
 
-const Highlighter = ({ text }: { text: string }) => {
+const Highlighter = ({ text, title }: { text: string, title: string }) => {
   const [selectvalue, setSelectValue] = React.useState("");
   const [textfield, setTextField] = React.useState("");
 
@@ -26,17 +26,18 @@ const Highlighter = ({ text }: { text: string }) => {
         {/* copy to clipboard here */}
         <div className="flex justify-between w-full border-b py-2 border-gray-900">
           <p className=" flex text-sm  text-cyan-500  justify-start    ">
-            Welcome
-            <span className="font-mono font-bold px-4 ">Hero!</span>
+            {title}
           </p>
           <CopyToClipboard
             text={textfield}
-            className="text-gray-50  text-xs font-thin bg-gray-500 rounded-md px-4 py-0.5 textinput"
+            style={{ cursor: "pointer" }}
+            className="text-cyan-400  text-xs font-thin bg-gray-700 rounded-md px-2 py-1 "
           >
             <button
               onClick={() => {
                 swal("code copied successfully");
               }}
+              className="text-cyan-400  text-xs font-thin bg-gray-900 rounded-md px-4 py-0.5 "
             >
               Copy Code
             </button>
@@ -45,7 +46,7 @@ const Highlighter = ({ text }: { text: string }) => {
         <SyntaxHighlighter
           language={selectvalue}
           style={dracula}
-          className="flex bg-gray-900"
+          className="flex bg-gray-900  w-full h-full overflow-scroll"
         >
           {/* pass in code here */}
           {text}
