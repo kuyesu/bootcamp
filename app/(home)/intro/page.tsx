@@ -12,11 +12,11 @@ export default async function index() {
   const user = session?.user;
 
   return (
-    <main className="flex w-full h-full flex-col items-center md:justify-start  md:p-24 ">
+    <main className="flex w-full h-full flex-col items-center md:justify-start  md:p-24 py-24 ">
       {user ? (
         <>
           <div className="z-10 w-full max-w-5xl items-center justify-center font-mono text-sm flex">
-            <p className=" flex md:text-xl  text-cyan-500 w-full justify-center  pb-6 md:pt-8 pt-24  ">
+            <p className=" flex md:text-xl  text-cyan-500 w-full justify-center  pb-6 md:pt-8 pt-12  ">
               How to become a
               <span className="font-mono font-bold md:px-4 px-2  ">Programmer!</span>
             </p>
