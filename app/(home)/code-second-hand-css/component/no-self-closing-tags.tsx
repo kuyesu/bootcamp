@@ -9,7 +9,7 @@ export default function noSelfClosingTags() {
         <p className=" flex md:text-xl items-start  text-cyan-500 w-full justify-start  pb-6  pt-24  ">
           CSS Grid layout:
         </p>
-        <p className="text-gray-400 text-sm md:text-base w-full justify-start flex py-8 ">
+        <p className="text-gray-400 text-sm text-center md:text-base w-full justify-start grid  py-8 ">
           CSS Grid layout is a powerful grid system that allows you to create
           complex layouts for web pages. It provides a two-dimensional grid
           system that enables you to define rows and columns for your content,
@@ -84,7 +84,7 @@ export default function noSelfClosingTags() {
                       `}
         />
       </div>
-      <p className=" flex md:text-sm items-start  text-gray-400 w-full justify-start  pb-6  pt-24  ">
+      <p className=" flex md:text-sm items-start text-justify text-gray-400 w-full justify-start  pb-6  pt-24  ">
         This code will create a grid with two columns and two rows, with the
         header spanning both columns and the main content area spanning the
         second column and the remaining rows. The sidebar will be placed in the
@@ -103,7 +103,7 @@ export default function noSelfClosingTags() {
       <p className=" flex flex-col md:text-md items-start  text-cyan-400 w-full justify-start  pb-6  p  ">
         What is Bootstrap?
       </p>
-      <p className=" flex md:text-sm items-start  text-gray-400 w-full justify-start  pb-6  pt-8  ">
+      <p className=" flex md:text-sm items-start text-justify text-gray-400 w-full justify-start  pb-6  pt-8  ">
         Bootstrap is a free and open-source front-end framework that includes
         pre-built HTML, CSS, and JavaScript components for creating responsive
         and mobile-first websites. It includes a grid system for laying out
@@ -147,7 +147,7 @@ export default function noSelfClosingTags() {
           JavaScript files, or the source code.
         </span>
       </p>
-      <p className=" flex md:text-sm items-start  text-gray-400 w-full justify-start  py-3  ">
+      <p className=" flex md:text-sm items-start text-justify text-gray-400 w-full justify-start  py-3  ">
         √{" "}
         <span className="">
           Add the Bootstrap files to your project: Once you have downloaded
@@ -157,7 +157,7 @@ export default function noSelfClosingTags() {
           in your project.
         </span>
       </p>
-      <p className=" flex md:text-sm items-start  text-gray-400 w-full justify-start  py-3  ">
+      <p className=" flex md:text-sm items-start text-justify  text-gray-400 w-full justify-start  py-3  ">
         √{" "}
         <span className="">
           Link to the Bootstrap files in your HTML file: In the head section of
@@ -178,7 +178,7 @@ export default function noSelfClosingTags() {
                       `}
         />
       </div>
-      <p className=" flex md:text-sm items-start  text-gray-400 w-full justify-start  py-3  ">
+      <p className=" flex md:text-sm items-start text-justify  text-gray-400 w-full justify-start  py-3  ">
         √{" "}
         <span className="">
           Use Bootstrap classes in your HTML: Once you have linked to the
@@ -199,7 +199,7 @@ export default function noSelfClosingTags() {
                       `}
         />
       </div>
-      <p className=" flex md:text-sm items-start  text-gray-400 w-full justify-start  pb-6  pt-24  ">
+      <p className=" flex md:text-sm items-start text-justify  text-gray-400 w-full justify-start  pb-6  pt-24  ">
         You can also use Bootstrap{"'"}s built-in components like buttons,
         forms, and navigation menus. For example, you might use the btn class to
         create a styled button:

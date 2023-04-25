@@ -28,7 +28,7 @@ export default async function index() {
               />
             </span>
           </div>
-          <p className="text-gray-400 text-sm md:text-base w-full justify-start flex py-8 ">
+          <p className="text-gray-400 text-sm text-justify md:text-base w-full justify-start flex py-8 ">
             CSS stands for Cascading Style Sheets, and it is a style sheet
             language used for describing the presentation of a document written
             in HTML or XML. It separates the presentation of a document from its
@@ -37,19 +37,19 @@ export default async function index() {
           <p className="text-cyan-400 text-sm md:text-base w-full justify-start flex py-4 ">
             CSS is important for several reasons:
           </p>
-          <p className="text-cyan-500 justify-start px-12 text-left inline-flex md:pt-4 pt-2 text-xs">
+          <p className="text-cyan-500 justify-start text-justify px-12  inline-flex md:pt-4 pt-2 text-xs">
             <span className="text-cyan-500 mr-4">✔</span>
             Separation of concerns: CSS allows for separation of concerns by
             separating the content of a webpage from its presentation. This
             makes it easier to maintain and update web pages, as changes can be
             made to the CSS file without affecting the HTML content.
           </p>
-          <p className="text-cyan-500 px-12 inline-flex md:pt-4 pt-2 text-xs">
+          <p className="text-cyan-500 px-12 inline-flex text-justify md:pt-4 pt-2 text-xs">
             <span className="text-cyan-500 mr-4">✔</span>
             Accessibility: CSS allows for more accessible web design by
             providing options for text alternatives and improved readability.
           </p>
-          <p className="text-cyan-500 justify-start px-12 text-left inline-flex md:pt-4 pt-2 text-xs">
+          <p className="text-cyan-500 justify-start px-12 text-justify  inline-flex md:pt-4 pt-2 text-xs">
             <span className="text-cyan-500 mr-4">✔</span>
             Consistency and efficiency: By using CSS, developers can create
             consistent styling across multiple pages and reduce the amount of
@@ -70,7 +70,7 @@ selector {
                       `}
           />
         </div>
-        <p className="text-gray-400 text-sm md:text-base w-full justify-start flex py-8 ">
+        <p className="text-gray-400 text-sm md:text-base text-justify w-full justify-start flex py-8 ">
           For example, to change the font color of all the headings on a page to
           red, you would use the following CSS code:
         </p>
@@ -86,11 +86,11 @@ h1, h2, h3 {
                       `}
           />
         </div>
-        <p className="text-gray-400 text-sm md:text-base w-full justify-start flex py-8 ">
+        <p className="text-gray-400 text-sm md:text-base text-justify w-full justify-start flex py-8 ">
           To link a CSS file to an HTML document, you can use the {`<link>`}{" "}
           element in the head section of your HTML file. Here{"'"}s an example:
         </p>
-        <p className="text-gray-400 text-sm md:text-base w-full justify-start flex py-8 ">
+        <p className="text-gray-400 text-sm text-justify md:text-base w-full justify-start flex py-8 ">
           In this example, the href attribute specifies the path to the CSS
           file, which is named style.css. When the HTML file is loaded, it will
           also load the CSS file and apply the styles defined in it to the HTML
