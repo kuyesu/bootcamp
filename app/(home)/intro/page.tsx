@@ -12,7 +12,7 @@ export default async function index() {
   const user = session?.user;
 
   return (
-    <main className="flex w-full  flex-col justify-center items-center md:justify-start  md:p-24 py-12">
+    <main className="flex w-full  flex-col justify-center items-center md:justify-start  md:p-24 py-24">
       {user ? (
         <>
           <div className="z-10 w-full max-w-5xl items-center justify-center font-mono text-sm flex">
