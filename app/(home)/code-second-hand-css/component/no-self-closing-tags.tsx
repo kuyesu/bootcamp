@@ -14,18 +14,24 @@ export default function noSelfClosingTags() {
           complex layouts for web pages. It provides a two-dimensional grid
           system that enables you to define rows and columns for your content,
           and then place elements within those rows and columns. To use CSS
-          Grid, you first define a grid container by setting the {`"display"`}
-          property to {`"grid"`} or {`"inline-grid"`}. You can then define the
-          rows and columns of the grid using the {`"grid-template-rows"`} and
-          {`"grid-template-columns"`} properties. These properties accept a list
-          of values, which can be either a fixed length (such as pixels or ems)
-          or a relative length (such as percentages). Once you have defined the
-          rows and columns, you can place elements within the grid using the
-          {`"grid-column" and "grid-row"`} properties. These properties accept a
-          start and end value, which can be either a line number or a named grid
-          area. For example, you could place an element in the second row and
-          third column of the grid by setting {`"grid-row: 2 / 3"`} and
-          {`"grid-column: 3 / 4".`} CSS Grid also provides many other features,
+          Grid, you first define a grid container by setting the{" "}
+          <span className="text-cyan-500">display</span>
+          property to <span className="text-cyan-500">grid</span> or{" "}
+          {`"inline-grid"`}. You can then define the rows and columns of the
+          grid using the{" "}
+          <span className="text-cyan-500">grid-template-rows</span>
+          <span className="text-cyan-500">grid-template-columns</span>{" "}
+          properties. These properties accept a list of values, which can be
+          either a fixed length (such as pixels or ems) or a relative length
+          (such as percentages). Once you have defined the rows and columns, you
+          can place elements within the grid using the
+          <span className="text-cyan-500">grid-column and grid-row</span>{" "}
+          properties. These properties accept a start and end value, which can
+          be either a line number or a named grid area. For example, you could
+          place an element in the second row and third column of the grid by
+          setting <span className="text-cyan-500">grid-row: 2 / 3</span>
+           and
+          <span className='text-cyan-500'>grid-column: 3 / 4</span> CSS Grid also provides many other features,
           such as the ability to create nested grids, control the alignment and
           spacing of grid items, and define the size of grid tracks. With its
           powerful and flexible layout system, CSS Grid is a great tool for
@@ -194,9 +200,9 @@ export default function noSelfClosingTags() {
         />
       </div>
       <p className=" flex md:text-sm items-start  text-gray-400 w-full justify-start  pb-6  pt-24  ">
-        You can also use Bootstrap{"'"}s built-in components like buttons, forms,
-        and navigation menus. For example, you might use the btn class to create
-        a styled button:
+        You can also use Bootstrap{"'"}s built-in components like buttons,
+        forms, and navigation menus. For example, you might use the btn class to
+        create a styled button:
       </p>
       <div className="w-full max-w-5xl items-center justify-center font-mono text-sm flex">
         <Highlighter

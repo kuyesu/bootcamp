@@ -15,12 +15,12 @@ export default async function index() {
     <main className="flex w-full h-full flex-col items-start md:justify-start  md:px-24 ">
       <>
         <div className="z-10 flex-col w-full max-w-5xl items-center justify-center font-mono text-sm flex">
-          <p className=" flex md:text-xl items-center  text-cyan-500 w-full justify-between border-b border-gray-900  pb-6  pt-24  ">
+          <div className=" flex md:text-xl items-center  text-cyan-500 w-full justify-between border-b border-gray-900  pb-6  pt-24  ">
             Hyper Text Markup Language
             <span className="font-mono flex space-x-8 items-center font-bold md:px-4 px-2  ">
               HTML <Image src="/html-5.svg" className="ml-2" width={25} alt="" height={25} />
             </span>
-          </p>
+          </div>
           <p className="text-gray-400 text-sm md:text-base w-full justify-start flex py-8 ">
             HTML stands for HyperText Markup Language and is used to create web
             pages. HTML consists of a series of tags, which are used to mark up

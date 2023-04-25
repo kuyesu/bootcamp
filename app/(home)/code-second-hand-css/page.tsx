@@ -15,7 +15,7 @@ export default async function index() {
     <main className="flex w-full h-full flex-col items-start md:justify-start  md:px-24 ">
       <>
         <div className="z-10 flex-col w-full max-w-5xl items-center justify-center font-mono text-sm flex">
-          <p className=" flex md:text-xl items-center  text-cyan-500 w-full justify-between border-b border-gray-900  pb-6  pt-24  ">
+          <div className=" flex md:text-xl items-center  text-cyan-500 w-full justify-between border-b border-gray-900  pb-6  pt-24  ">
             Cascade Style Sheets
             <span className="font-mono flex space-x-8 items-center font-bold md:px-4 px-2  ">
               CSS{" "}
@@ -27,7 +27,7 @@ export default async function index() {
                 height={25}
               />
             </span>
-          </p>
+          </div>
           <p className="text-gray-400 text-sm md:text-base w-full justify-start flex py-8 ">
             CSS stands for Cascading Style Sheets, and it is a style sheet
             language used for describing the presentation of a document written

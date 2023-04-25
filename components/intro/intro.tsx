@@ -46,7 +46,7 @@ export default function Intro({
           </h1>
 
           <div className="mt-8 flex w-full gap-4">
-            <a className=" w-full">
+            <div className=" w-full">
               <motion.button
                 // type="button"
                 onClick={() => setState("interim")}
@@ -54,7 +54,7 @@ export default function Intro({
               >
                 Get early access
               </motion.button>
-            </a>
+            </div>
           </div>
         </div>
 
