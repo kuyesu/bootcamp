@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className="flex w-full h-full flex-col items-center justify-center md:justify-between md:p-24 pt-28 md:pt-24 ">
+    <main className="flex w-full h-full flex-col items-center justify-center md:justify-between md:p-24 py-10 md:pt-24 ">
       <h1 className="text-black md:pt-24 md:text-2xl">
         <p className=" flex text-xl  text-cyan-500 w-full justify-center  pb-6 pt-8   ">
           Welcome
@@ -56,7 +56,7 @@ export default function Home() {
 
           <div className="mt-8 flex w-full gap-4">
             <Link
-              href="/intro"
+              href="/get-started"
               className="  w-full rounded-md px-8 py-2.5 text-center text-sm font-medium text-cyan-500 border-cyan-500 border shadow-2xl shadow-cyan-500 focus:outline-none  md:mr-0"
             >
               Get early access
